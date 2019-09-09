@@ -12,7 +12,7 @@ public class JerseyConfig extends ResourceConfig {
 
     public JerseyConfig() {
 
-        //packages("com.example.demo.endpoint");
-        register(CheckOut.class);
+        packages("com.example.demo.endpoint");
+        //register(CheckOut.class);
     }
 }
