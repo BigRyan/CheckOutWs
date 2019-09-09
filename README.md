@@ -16,6 +16,8 @@ with header: Content-Type:Application/json
 payload:
 ["001","001","001","003"]
 
+or create a jar file by mvn clean install and java -jar xx.jar, then you can sent the same request as above.
+
 You will get;
 {
     "price": "250"
